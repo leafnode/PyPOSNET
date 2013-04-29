@@ -4,7 +4,7 @@ import time
 import pyposnet
 import xmmscontrol.client
 
-conn = xmmscontrol.client.connect("dupa.8", "deith.dom.wafel.com")
+conn = xmmscontrol.client.connect("pass", "hostname")
 kasa = pyposnet.posnet("/dev/usb/tts/0")
 
 width = 20
